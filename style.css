@@ -1,0 +1,134 @@
+.hr{
+	position: absolute;
+	left: 45%;
+	background-color: #c8d9e5;
+	height:5px;
+	width: 85px;
+	margin-top: 10px;
+}
+.meet{
+	background-color: #e7f1f8;
+	height: 100%;
+	width: 100%;
+}
+.row1{
+	text-align: center;
+	padding: 50px;
+}
+.row1 h1{
+	color: #3c4761;
+	font-family: 'Titillium Web', sans-serif;
+}
+.row1 p{
+color: #535e75;
+padding-top: 30px;
+}
+.row2{
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 70px;
+}
+.skill{
+	background-color: #ffffff;
+	text-align: center;
+	padding: 20px;
+	height: 100%;
+	width: 100%; 
+}
+.row3{
+	padding: 50px;
+}
+.row3 h2 {
+	/*margin: 50px;
+	padding: 50px;*/
+	font-family: 'Titillium Web', sans-serif;
+}
+.row3 p{
+padding-top: 30px;
+}
+.row4{
+	padding-bottom:50px;
+}
+.portfolio{
+	background-color: #ffdd99;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	/*padding: 20px; */
+	height: 100%;
+	width: 100%;
+}
+.row5 p{
+padding-top: 30px;
+}
+.row5 h3{
+	padding-top: 30px;
+	font-family: 'Titillium Web', sans-serif;
+}
+.row6{
+	margin: auto;
+	margin-bottom: 30px;
+	width: 90%;
+}
+.row6 li{
+	margin: 10px;
+	border: 2px solid blue;
+}
+.row6 a{
+	border: 2px solid yellow; 
+}
+.row6 .a{
+	background-color:#ffffff; 
+}
+.row6 .b{
+	background-color:#ebc985; 
+}
+#full_btn{
+	margin-bottom: 50px;
+}
+#full_btn button{
+	height: 38px;
+	width: 84px;
+}
+#full_btn button:hover{
+		background-color: white!important;
+		border: 2px solid white;
+	}
+
+#full_btn button:active{
+		background-color: white!important;
+		border: none!important;
+	}
+
+
+
+.pc{
+	height: 90%;
+	width: 90%;
+	/*margin: 40px;*/
+}
+
+.btn{
+	margin-top: 40px;
+		background-color: #17c2a4;
+		border-bottom: 5px solid #14a58c;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+.row6{
+	width: 100%;
+}
+.row6 a{
+	padding: 12px;
+	font-size: 5px;
+}
+}
+
+/*In tablet*/
+@media only screen and (min-width: 426px) and (max-width: 768px){
+	.dd{
+		width: 100%;
+	}
+	
+}
